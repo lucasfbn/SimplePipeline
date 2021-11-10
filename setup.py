@@ -2,7 +2,7 @@ from distutils.core import setup
 from setuptools import find_packages
 
 setup(
-    name='simple_pipeline',  # How you named your package folder (MyLib)
+    name='simplepipeline',  # How you named your package folder (MyLib)
     packages=find_packages(),  # Chose the same as "name"
     version='v0.1.4',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
