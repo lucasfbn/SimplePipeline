@@ -2,9 +2,9 @@ from distutils.core import setup
 from setuptools import find_packages
 
 setup(
-    name='SimplePipeline',  # How you named your package folder (MyLib)
+    name='simple_pipeline',  # How you named your package folder (MyLib)
     packages=find_packages(),  # Chose the same as "name"
-    version='v0.1',  # Start with a small number and increase it with every change you make
+    version='v0.1.2',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='',  # Give a short description about your library
     author='Lucas Fobian',  # Type in your name
@@ -12,7 +12,7 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/lucasfbn/SimplePipeline',
     # I explain this later on
-    download_url='https://github.com/lucasfbn/SimplePipeline/archive/refs/tags/v0.1.tar.gz',
+    download_url='https://github.com/lucasfbn/SimplePipeline/archive/refs/tags/v0.1.2.tar.gz',
     keywords=[],  # Keywords that define your package best
     install_requires=[  # I get to this in a second
         'pandas',
