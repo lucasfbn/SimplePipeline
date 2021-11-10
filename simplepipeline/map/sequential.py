@@ -2,7 +2,7 @@ from functools import partial
 
 from tqdm import tqdm
 
-from map.base_map import Map, MultiMap
+from simplepipeline.map.base_map import Map, MultiMap
 
 
 def seq_map_(func, iterable, **kwargs):

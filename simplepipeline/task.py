@@ -1,7 +1,7 @@
 from functools import partial
 
-from pipeline import Pipeline
-from utils.task_logger import TaskLogger
+from simplepipeline.pipeline import Pipeline
+from simplepipeline.utils.task_logger import TaskLogger
 
 
 class Task:

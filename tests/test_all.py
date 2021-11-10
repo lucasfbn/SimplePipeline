@@ -3,10 +3,10 @@ import time
 import pandas as pd
 from pandas.testing import assert_frame_equal
 
-from pipeline import Pipeline
-from map.parallel import par_map, par_map_unpack
-from map.sequential import seq_map, seq_map_unpack
-from task import task, filter_task, set_pipeline, get_pipeline, delete_pipeline
+from simplepipeline.pipeline import Pipeline
+from simplepipeline.map.parallel import par_map, par_map_unpack
+from simplepipeline.map.sequential import seq_map, seq_map_unpack
+from simplepipeline.task import task, filter_task, set_pipeline, get_pipeline, delete_pipeline
 
 test_list = list(range(1, 5))
 

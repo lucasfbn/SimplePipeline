@@ -1,4 +1,4 @@
-from utils.task_logger import TaskLogger
+from simplepipeline.utils.task_logger import TaskLogger
 
 
 class Map:

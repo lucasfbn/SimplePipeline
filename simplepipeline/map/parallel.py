@@ -2,7 +2,7 @@ from functools import partial
 
 import ray
 
-from map.base_map import Map, MultiMap
+from simplepipeline.map.base_map import Map, MultiMap
 
 
 @ray.remote
