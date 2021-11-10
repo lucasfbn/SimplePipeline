@@ -15,5 +15,4 @@ class Pipeline:
     def executed_tasks(self):
         logger.info(f"Pipeline: {'Not Specified' if self.name is None else self.name}")
         _ = [logger.info(f"\t Task: {task}") for task in self._tasks]
-        logger.info("hallo")
         return self._tasks
