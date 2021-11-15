@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setup(
     name='simplepipeline',  # How you named your package folder (MyLib)
-    version='v0.1.12',  # Start with a small number and increase it with every change you make
+    version='v0.2.1',  # Start with a small number and increase it with every change you make
     packages=find_packages(),
     include_package_data=True,
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository

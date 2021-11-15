@@ -89,3 +89,11 @@ def test_pipeline():
     delete_pipeline()
 
     assert get_pipeline() is None
+
+
+def test_pipeline_executed_tasks():
+    set_pipeline(Pipeline("test_pipeline"))
+
+    seq_map(loops, test_list, constant=2).run()
+
+    assert get_pipeline().executed_tasks() == ["loops"]
